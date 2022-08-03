@@ -1,0 +1,101 @@
+/*
+    IMPORTAÇÕES
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*
+    Atribuindo para todos os itens as seguintes características
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/*
+    Body com altura máxima, conteúdo alinhado ao centro, no caso à main, que vai conter o conteúdo.
+    Background cinza.
+*/
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+/*
+    Características da main:
+*/
+
+main {
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/*
+    Características do header:
+*/
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/*
+    Características do input: 
+*/
+
+input {
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+}
+
+/*
+    Características do button: 
+*/
+
+button {
+  display: flex;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/*
+    Características do ícone: font size de 40px pra ficar um pouco maior
+*/
+
+button i {
+  font-size: 40px;
+}
+
+/*
+    Características do content:
+*/
+
+.content {
+  margin-top: 10px;
+  justify-content: space-between;
+  word-break: break-word;
+}
+
+/*
+    Características da imagem:
+*/
+
+img {
+  min-width: 120px;
+  background-image: radial-gradient(#b5b5b5, #f7f7f7 70%);
+}

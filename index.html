@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Biblioteca do BoxIcons para usar a lupa -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Consulta Clima</title>
+  </head>
+  <body>
+    <main>
+      <!-- div main -->
+      <header>
+        <!-- header -->
+        <input type="text" />
+        <!-- input(controle interativo para forms que recebe dados do usuário)-->
+        <button><i class="bx bx-search"></i></button>
+        <!-- botão com o ícone da lupa -->
+      </header>
+      <div class="content" style="display: none">
+        <!-- div com class content que inicia com o display none(só vai aparecer algo quando você busca) -->
+        <section>
+          <h2 id="place"></h2>
+          <!-- h2 para o lugar -->
+          <span id="degrees"></span>
+          <!-- span para os graus -->
+          <br />
+          <span id="wind"></span>
+          <!-- span para a velocidade do vento -->
+        </section>
+        <img src="" alt="Clima" />
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
